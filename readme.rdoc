@@ -133,22 +133,22 @@ Sam Ruby, Dave Thomas, David Heinemeier Hansson
 <b>{Rails 3 Upgrade Handbook}[http://peepcode.com/products/rails-3-upgrade-handbook-pdf]</b>
 Jeremy Anally
   
-  Upgrading is not a fun process. This tiny book makes it a bit more tolerable. A must if you find yourself needing to bring an 
-  old application up to speed. Completed in late 2010.
+  Upgrading is not a fun process. This tiny book makes it a bit more tolerable. A must if you find yourself needing to bring 
+  an old application up to speed. Completed in late 2010.
 
 <b>{The Rails 3 Way}[http://www.informit.com/store/product.aspx?isbn=0321601661]</b>
 Obie Fernandez
   
-  I've only poked through this book a little bit and mostly as a reference tool. But given the author, it's likely to be a high
-   quality read. Nevertheless, you might consider reading Peter Cooper's much-discussed review which details some pretty 
-   significant shortcomings. Partially completed in early 2011.
+  I've only poked through this book a little bit and mostly as a reference tool. But given the author, it's likely to be a 
+  high quality read. Nevertheless, you might consider reading Peter Cooper's much-discussed review which details some pretty 
+  significant shortcomings. Partially completed in early 2011.
 
 <b>{Simply Rails 2}[http://www.sitepoint.com/books/rails2/]</b>
 Patrick Lenz
   
-  Along with Agile Web, this book helped me grasp the basics when I was still a total novice. Of course, I wouldn't recommend it
-  for current learners since it's way out of date. If you're looking to learn the basics, check out Michael Hartl's introduction.
-  Completed in early 2009.
+  Along with Agile Web, this book helped me grasp the basics when I was still a total novice. Of course, I wouldn't recommend
+  it for current learners since it's way out of date. If you're looking to learn the basics, check out Michael Hartl's 
+  introduction. Completed in early 2009.
 
 <b>{The RSpec Book: Behavior-Driven Development with RSpec, Cucumber, and Friends}[http://www.pragprog.com/titles/achbd/the-rspec-book]</b>
 David Chelimsky, et al.
@@ -160,21 +160,21 @@ David Chelimsky, et al.
 <b>{Version Control Made Easy}[http://pragprog.com/screencasts/v-jwsceasy/source-control-made-easy]</b>
 Jim Weirich
 
-  Weirich does much more than just explain how to use Git. He takes you on a tour of how version control ought to work, starting
-  from the very basics. Gradually you'll see how Git conforms to the patterns he describes, and by the end, you'll have a 
-  fundamental understanding what makes Git a superior version control solution. Watched in mid 2010.
+  Weirich does much more than just explain how to use Git. He takes you on a tour of how version control ought to work, 
+  starting from the very basics. Gradually you'll see how Git conforms to the patterns he describes, and by the end, you'll 
+  have a fundamental understanding what makes Git a superior version control solution. Watched in mid 2010.
 
 <b>{Meet Node.js}[http://peepcode.com/products/nodejs-i]</b>
 Geoffery Grosenbach (Peepcode)
 
-  Another high quality screencast from the folks at Peepcode. I have to admit I didn't run out and build the next great node app, 
-  but I did come away with an understanding of what Node.js is all about and why it's so exciting. Watched in early 2010.
+  Another high quality screencast from the folks at Peepcode. I have to admit I didn't run out and build the next great node 
+  app, but I did come away with an understanding of what Node.js is all about and why it's so exciting. Watched in early 2010.
 
 <b>{Advanced Active Record}[http://envycasts.com/products/advanced-activerecord]</b>
 Envycast
   
-  Awesome little screen cast from the makers of New Relic. Chalked full of little tips. No matter your experience level, you'll
-  probably learn something new here. Watched in mid 2009. 
+  Awesome little screen cast from the makers of New Relic. Chalked full of little tips. No matter your experience level, 
+  you'll probably learn something new here. Watched in mid 2009. 
 
 <b>{Everyday Active Record}[http://pragprog.com/screencasts/v-rbar/everyday-active-record]</b>
 Ryan Bates
@@ -191,29 +191,29 @@ Geoffery Grosenbach (Peepcode)
 <b>{Phusion Passenger}[http://peepcode.com/products/phusion-passenger]</b>
 Geoffery Grosenbach (Peepcode)
 
-  I don't really use Passenger anymore since I deploy everything to Heroku. But if you're looking to use Passenger this is a good
-  primer. Watched in mid 2009.
+  I don't really use Passenger anymore since I deploy everything to Heroku. But if you're looking to use Passenger this is a 
+  good primer. Watched in mid 2009.
 
 <b>{Productivity for Programmers}[http://peepcode.com/products/productivity-for-programmers]</b>
 Lars Pind
 
-  Not amazing but totally worth a watch. One bit of advice I took from this: Identify the most and least productive hours of your
-  day. Be sure to program during your productive hours and use the less productive times for other activities (exercise, lunch, 
-  socializing, etc). Watched in mid 2009.
+  Not amazing but totally worth a watch. One bit of advice I took from this: Identify the most and least productive hours of 
+  your day. Be sure to program during your productive hours and use the less productive times for other activities (exercise,
+  lunch, socializing, etc). Watched in mid 2009.
 
 <b>{Scaling Ruby}[http://vimeo.com/2164455]</b>
 Envycast
 
-  Honestly, this screencast discusses a bunch of problems I've never had to encounter (this language is not supported, see … for 
-  more info) firsthand. Still, it was watching if only to broaden my horizons. Watched in mid 2009.
+  Honestly, this screencast discusses a bunch of problems I've never had to encounter firsthand. Still, it was watching if 
+  only to broaden my horizons. Watched in mid 2009.
   
 <b>{RSpec Series: Basics, Mocks and Models, Controllers and Tools}[http://peepcode.com/]</b>
 Peepcode
 
-  This is a set of three screencasts each discussing different aspects of the RSpec testing framework. Testing is very difficult
-  especially at first. While these screencasts definitely help, I suggest attacking the topic with a variety of resources. Unless
-  you're already familiar with similar testing frameworks, these screencasts probably won't teach you everything you need to know.
-  Watched in mid 2009.
+  This is a set of three screencasts each discussing different aspects of the RSpec testing framework. Testing is very 
+  difficult especially at first. While these screencasts definitely help, I suggest attacking the topic with a variety of 
+  resources. Unless you're already familiar with similar testing frameworks, these screencasts probably won't teach you 
+  everything you need to know. Watched in mid 2009.
   
   
 == Things I plan to read.
