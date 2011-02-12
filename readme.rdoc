@@ -189,13 +189,15 @@ Chris Pine
   in my experience, were difficult enough to get you thinking without leaving you stumped and discouraged. This is book 
   that got me started and I try pushing it on everyone I met. Completed in late 2008.
 
-<b>{Metaprogramming Ruby}[http://pragprog.com/titles/ppmetr/metaprogramming-ruby]</p>
+<b>{Metaprogramming Ruby}[http://pragprog.com/titles/ppmetr/metaprogramming-ruby]</b>
 Paolo Perrotta
 
   This book answers all kinds of mysteries. If you've ever wondered "How the hell is that even possible?" this book 
   probably has the answer. Dynamic finders in Rails? How to build a DSL? How RSpec works under the hood? This book sheds 
   light on the dark magic that makes Ruby so powerful. Most importantly, however, this book showed me that metaprogramming 
   really isn't that complicated.
+
+
 
 == Screencasts
 <b>{Version Control Made Easy}[http://pragprog.com/screencasts/v-jwsceasy/source-control-made-easy]</b>
