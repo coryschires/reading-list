@@ -169,8 +169,8 @@ Peter Cooper
 
   Best all around Ruby primer. Cooper begins teaching you programming basics, like flow control, using simple string methods.
   Later, he gives an excellent explanation of object orientation and various data structures. By the end of the book, Cooper
-  touches on to fairly advanced topics, like metaprogramming. Thinking back, it's amazing how much this book covers in relatively
-  few pages. Completed in early 2010.
+  touches on to fairly advanced topics, like metaprogramming. Thinking back, it's amazing how much this book covers in 
+  relatively few pages. Completed in early 2010.
 
 <b>{Design Patterns in Ruby}[http://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452]</b>
 Russ Olsen
@@ -181,7 +181,21 @@ Russ Olsen
   more out of this read, but there's no reason less experience developers should be discouraged. Partially completed in mid 
   2010.
 
+<b>{Learn to Program}[http://pine.fm/LearnToProgram/]</b>
+Chris Pine
 
+  Absolutely the best book to get started if you have never programmed in your life. Pine gently guides you through the 
+  very basics (What's a string? What's an array? What's an if statement?). Each chapter ends with a few problems which, 
+  in my experience, were difficult enough to get you thinking without leaving you stumped and discouraged. This is book 
+  that got me started and I try pushing it on everyone I met. Completed in late 2008.
+
+<b>{Metaprogramming Ruby}[http://pragprog.com/titles/ppmetr/metaprogramming-ruby]</p>
+Paolo Perrotta
+
+  This book answers all kinds of mysteries. If you've ever wondered "How the hell is that even possible?" this book 
+  probably has the answer. Dynamic finders in Rails? How to build a DSL? How RSpec works under the hood? This book sheds 
+  light on the dark magic that makes Ruby so powerful. Most importantly, however, this book showed me that metaprogramming 
+  really isn't that complicated.
 
 == Screencasts
 <b>{Version Control Made Easy}[http://pragprog.com/screencasts/v-jwsceasy/source-control-made-easy]</b>
