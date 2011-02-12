@@ -119,7 +119,7 @@ Sam Ruby, Dave Thomas, David Heinemeier Hansson
 
   Relatively speaking, there weren't too many basic Rails book when I was first learning. So, like everyone else, I spent a 
   good deal of time reading Agile Web. It was decent for the time; however, I suspect beginners would be better off having a 
-  look at newer, easier to understand resources – such as Michael Hartl's much-hyped introduction. Partially read in late 2008.
+  look at newer, easier to understand resources – such as Michael Hartl's introduction. Partially read in late 2008.
 
 <b>{Getting Real: The Smarter, Faster, Easier way to build a Successful Web Application}[http://gettingreal.37signals.com/]</b>
 37signals
