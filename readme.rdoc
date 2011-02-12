@@ -15,30 +15,27 @@ Dave Hoover & Adewale Oshineye
   Inspirational read, especially if you've only been coding for a few years. Lots of good ideas for improving your skills 
   organized into loosely overlapping patterns. Also, peppered with thought-provoking quotes. Completed in February 2011.
 
-<b>Agile Coaching</b>
+<b>{Agile Coaching}[http://pragprog.com/titles/sdcoach/agile-coaching]</b>
 Rachel Davies & Liz Sedley
 
-  Most useful if you plan to lead a team of agile developers. If you're simply looking to
-  to better familiarize yourself with Agile practices, this isn't your best choice. That's
-  not to say you won't read about general practices. You will, but this book focuses more
-  so on coaching. Partially read in late 2009
+  Most useful if you plan to lead a team of agile developers. If you're simply looking to better familiarize yourself with 
+  Agile practices, this isn't your best choice. That's not to say you won't read about general practices. You will, but 
+  this book focuses more so on coaching. Partially read in late 2009.
 
-<b>The Agile Samurai: How Agile Masters Deliver Great Software</b>
+<b>{The Agile Samurai: How Agile Masters Deliver Great Software}[http://www.pragprog.com/titles/jtrap/the-agile-samurai]</b>
 Jonathan Rasmusson
   
-  This book makes for a good primer. It's very easy to understand and you're sure to come
-  away with a decent understanding of what Agile is all about. A slight criticism, some of
-  the methodologies (e.g. inception deck) seemed a little contrived. Overall, a good read 
-  for those looking to learn the basics of Agile. Partially read in mid 2010.
+  This book makes for a good primer. It's very easy to understand and you're sure to come away with a decent understanding 
+  of what Agile is all about. A slight criticism, some of the methodologies (e.g. inception deck) seemed a little contrived. 
+  Overall, a good read for those looking to learn the basics of Agile. Partially read in mid 2010.
 
-<b>The Entrepreneur's Guide to Customer Development</b>
+<b>{The Entrepreneur's Guide to Customer Development}[http://www.custdev.com/]</b>
 Brant Cooper & Patrick Vlaskovits
   
-  Presents a strong case that most startups fail not because they couldn't to make a 
-  product but because no one wanted to use the product they made. The solution? We need
-  to step away from our terminals and talk to potential customers. Find out what people
-  really need. Make the product they want even if it's not entirely inline with your 
-  vision. This book will guide you through the process. Completed in December 2010.
+  Presents a strong case that most startups fail not because they couldn't to make a product but because no one wanted to 
+  use the product they made. The solution? We need to step away from our terminals and talk to potential customers. Find 
+  out what people really need. Make the product they want even if it's not entirely inline with your vision. This book will 
+  guide you through the process. Completed in December 2010.
   
 <b>Arduino: A Quick-Start Guide</b>
 Mark Schmidt
