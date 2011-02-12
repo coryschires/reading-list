@@ -9,7 +9,7 @@ Inspired in part by Apprenticeship Patterns, I've decided to maintain a public r
 Note that many of these entries were written long after having read the actual book. I apologize for any inaccuracies. Also, the completion dates are often rough approximations.
 
 == Books
-<b>Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman</b>
+{<b>Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman</b>}[http://oreilly.com/catalog/9780596518387]
 Dave Hoover & Adewale Oshineye
 
   Inspirational read, especially if you've only been coding for a few years. Lots of good ideas for improving your skills 
