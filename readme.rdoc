@@ -156,6 +156,33 @@ David Chelimsky, et al.
   I can't imagine anyone really understanding RSpec until they've read this book. It's long and at times complicated, but 
   absolutely integral if you're looking to be a professional Ruby developer. Completed (after many false starts) in mid 2010. 
 
+<b>{Rails Test Perscriptions: Keeping Your Application Healthy}[http://pragprog.com/titles/nrtest/rails-test-prescriptions]</b>
+Noel Rappin
+  
+  I was initially annoyed by this book's use of Test Unit rather than RSpec. But I gradually warmed up to it. Most of the 
+  topics transcend this-or-that framework, so there's much to be gained regardless of your preferred framework. And in the
+  end, there's lots of good information in here. This book is intended for readers with at least some existing knowledge 
+  of testing. Completed in early 2011.
+
+<b>{Beginning Ruby: From Novice to Professional}[http://apress.com/book/view/9781590597668]</b>
+Peter Cooper
+
+  Best all around Ruby primer. Cooper begins teaching you programming basics, like flow control, using simple string methods.
+  Later, he gives an excellent explanation of object orientation and various data structures. By the end of the book, Cooper
+  touches on to fairly advanced topics, like metaprogramming. Thinking back, it's amazing how much this book covers in relatively
+  few pages. Completed in early 2010.
+
+<b>{Design Patterns in Ruby}[http://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452]</b>
+Russ Olsen
+
+  Olsen covers each of the classic design patterns discussing how they might be implemented with Ruby. His simple style and 
+  choice of examples makes this potentially daunting read relatively easy to follow. Especially enjoyed the "In The Wild" 
+  sections which show examples of each pattern being used in open source projects. Advanced developers will probably get 
+  more out of this read, but there's no reason less experience developers should be discouraged. Partially completed in mid 
+  2010.
+
+
+
 == Screencasts
 <b>{Version Control Made Easy}[http://pragprog.com/screencasts/v-jwsceasy/source-control-made-easy]</b>
 Jim Weirich
@@ -176,12 +203,18 @@ Envycast
   Awesome little screen cast from the makers of New Relic. Chalked full of little tips. No matter your experience level, 
   you'll probably learn something new here. Watched in mid 2009. 
 
-<b>{Everyday Active Record}[http://pragprog.com/screencasts/v-rbar/everyday-active-record]</b>
+<b>{Everyday Active Record: Series}[http://pragprog.com/screencasts/v-rbar/everyday-active-record]</b>
 Ryan Bates
 
   Ryan Bates is too awesome. If you watched Railscasts, these are very similar but longer, more focused, and have better 
   visualizations. Note these are intended for beginner to intermediate level developers. Watched in mid 2009.
   
+<b>{Mastering Rails Forms: Series}[http://pragprog.com/screencasts/v-rbforms/mastering-rails-forms]</b>
+Ryan Bates
+  
+  This is like a three hour Railscast episode which focuses on forms. Very high quality. Intended for beginner to 
+  intermediate level developers. Watched in mid 2009.
+
 <b>{Haml & Sass}[http://peepcode.com/products/haml-and-sass]</b>
 Geoffery Grosenbach (Peepcode)
   
@@ -214,8 +247,8 @@ Peepcode
   difficult especially at first. While these screencasts definitely help, I suggest attacking the topic with a variety of 
   resources. Unless you're already familiar with similar testing frameworks, these screencasts probably won't teach you 
   everything you need to know. Watched in mid 2009.
-  
-  
+
+
 == Things I plan to read.
 <b>{Crafting Rails Applications: Expert Practices for Everyday Rails Development}[http://pragprog.com/titles/jvrails/crafting-rails-applications]</b>
 Jose Valim
@@ -226,7 +259,7 @@ Bruce Tate
 <b>{Clean Code: A Handbook of Agile Software Craftsmanship}[http://www.informit.com/store/product.aspx?isbn=0132350882]</b>
 Robert C. Martin
 
-<b>Business Model Generation</b> 
+<b>{Business Model Generation}[http://www.businessmodelgeneration.com/]</b> 
 Alexander Osterwald & Yves Pigneur
 
 <b>{jQuery Pocket Reference}[http://oreilly.com/catalog/0636920016182]</b>
