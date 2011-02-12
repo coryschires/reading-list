@@ -157,94 +157,87 @@ David Chelimsky, et al.
   absolutely integral if you're looking to be a professional Ruby developer. Completed (after many false starts) in mid 2010. 
 
 == Screencasts
-<b>Version Control Made Easy</b>
+<b>{Version Control Made Easy}[http://pragprog.com/screencasts/v-jwsceasy/source-control-made-easy]</b>
 Jim Weirich
 
-  Weirich does much more than just explain how to use Git. He takes you on a tour of how 
-  version control ought to work, starting from the very basics. Gradually you'll see how
-  Git conforms to the patterns he describes, and by the end, you'll have a fundamental
-  understanding what makes Git a superior version control solution. Watched in mid 2010.
+  Weirich does much more than just explain how to use Git. He takes you on a tour of how version control ought to work, starting
+  from the very basics. Gradually you'll see how Git conforms to the patterns he describes, and by the end, you'll have a 
+  fundamental understanding what makes Git a superior version control solution. Watched in mid 2010.
 
-<b>Meet Node.js</b>
+<b>{Meet Node.js}[http://peepcode.com/products/nodejs-i]</b>
 Geoffery Grosenbach (Peepcode)
 
-  Another high quality screencast from the folks at Peepcode. I have to admit I didn't run
-  out and build the next great node app, but I did come away with an understanding of what
-  Node.js is all about and why it's so exciting. Watched in early 2010.
+  Another high quality screencast from the folks at Peepcode. I have to admit I didn't run out and build the next great node app, 
+  but I did come away with an understanding of what Node.js is all about and why it's so exciting. Watched in early 2010.
 
-<b>Advanced Active Record</b>
+<b>{Advanced Active Record}[http://envycasts.com/products/advanced-activerecord]</b>
 Envycast
   
-  Awesome little screen cast from the makers of New Relic. Chalked full of little tips. No 
-  matter your experience level, you'll probably learn something new here. Watched in mid 2009.
+  Awesome little screen cast from the makers of New Relic. Chalked full of little tips. No matter your experience level, you'll
+  probably learn something new here. Watched in mid 2009. 
 
-<b>Everyday Active Record</b>
+<b>{Everyday Active Record}[http://pragprog.com/screencasts/v-rbar/everyday-active-record]</b>
 Ryan Bates
 
-  Ryan Bates is too awesome. If you watched Railscasts, these are very similar but longer, 
-  more focused, and have better visualizations. Note these are intended for beginner to 
-  intermediate level developers. Watched in mid 2009.
+  Ryan Bates is too awesome. If you watched Railscasts, these are very similar but longer, more focused, and have better 
+  visualizations. Note these are intended for beginner to intermediate level developers. Watched in mid 2009.
   
-<b>Haml & Sass</b>
+<b>{Haml & Sass}[http://peepcode.com/products/haml-and-sass]</b>
 Geoffery Grosenbach (Peepcode)
   
-  If you're not using HAML and SASS, you probably should be. It's pretty awesome and very 
-  simple to learn. In fact, this screencast will teach you everything you need to know.
-  Watched in early 2010.
+  If you're not using HAML and SASS, you probably should be. It's pretty awesome and very simple to learn. In fact, this 
+  screencast will teach you everything you need to know. Watched in early 2010.
 
-<b>Passenger</b>
+<b>{Phusion Passenger}[http://peepcode.com/products/phusion-passenger]</b>
 Geoffery Grosenbach (Peepcode)
 
-  I don't really use Passenger anymore since I deploy everything to Heroku. But if you're
-  looking to use Passenger this is a good primer. Watched in mid 2009.
+  I don't really use Passenger anymore since I deploy everything to Heroku. But if you're looking to use Passenger this is a good
+  primer. Watched in mid 2009.
 
-<b>Productivity for Programmers</b>
+<b>{Productivity for Programmers}[http://peepcode.com/products/productivity-for-programmers]</b>
 Lars Pind
 
-  Not amazing but totally worth a watch. One bit of advice I took from this: Identify the 
-  most and least productive hours of your day. Be sure to program during your productive 
-  hours and use the less productive times for other activities (exercise, lunch, 
+  Not amazing but totally worth a watch. One bit of advice I took from this: Identify the most and least productive hours of your
+  day. Be sure to program during your productive hours and use the less productive times for other activities (exercise, lunch, 
   socializing, etc). Watched in mid 2009.
 
-<b>Scaling Ruby</b>
+<b>{Scaling Ruby}[http://vimeo.com/2164455]</b>
 Envycast
 
-  Honestly, this screencast discusses a bunch of problems I've never had to encounter
-  firsthand. Still, it was watching if only to broaden my horizons. Watched in mid 2009.
+  Honestly, this screencast discusses a bunch of problems I've never had to encounter (this language is not supported, see … for 
+  more info) firsthand. Still, it was watching if only to broaden my horizons. Watched in mid 2009.
   
-<b>RSpec Series: Basics, Mocks and Models, Controllers and Tools</b>
+<b>{RSpec Series: Basics, Mocks and Models, Controllers and Tools}[http://peepcode.com/]</b>
 Peepcode
 
-  This is a set of three screencasts each discussing different aspects of the RSpec
-  testing framework. Testing is very difficult especially at first. While these screencasts
-  definitely help, I suggest attacking the topic with a variety of resources. Unless you're
-  already familiar with similar testing frameworks, these screencasts probably won't teach
-  you everything you need to know. Watched in mid 2009.
+  This is a set of three screencasts each discussing different aspects of the RSpec testing framework. Testing is very difficult
+  especially at first. While these screencasts definitely help, I suggest attacking the topic with a variety of resources. Unless
+  you're already familiar with similar testing frameworks, these screencasts probably won't teach you everything you need to know.
+  Watched in mid 2009.
   
   
-
 == Things I plan to read.
-<b>Crafting Rails Applications: Expert Practices for Everyday Rails Development</b>
+<b>{Crafting Rails Applications: Expert Practices for Everyday Rails Development}[http://pragprog.com/titles/jvrails/crafting-rails-applications]</b>
 Jose Valim
 
-<b>Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages</b>
+<b>{Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages}[http://www.pragprog.com/titles/btlang/seven-languages-in-seven-weeks]</b>
 Bruce Tate
 
-<b>Clean Code: A Handbook of Agile Software Craftsmanship</b>
+<b>{Clean Code: A Handbook of Agile Software Craftsmanship}[http://www.informit.com/store/product.aspx?isbn=0132350882]</b>
 Robert C. Martin
 
 <b>Business Model Generation</b> 
 Alexander Osterwald & Yves Pigneur
 
-<b>jQuery Pocket Reference</b>
+<b>{jQuery Pocket Reference}[http://oreilly.com/catalog/0636920016182]</b>
 David Flanagan
 
-<b>Design Patterns: Elements of Reusable Object Oriented Software</b>
+<b>{Design Patterns: Elements of Reusable Object Oriented Software}[http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612]</b>
 Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides
 
 == Things I plan to watch.
-<b>Meet Rails 3</b> 
+<b>{Meet Rails 3: Series}[http://peepcode.com/products/meet-rails-3-i]</b> 
 Peepcode
 
-<b>Tips From J Barnette</b>
+<b>{Play by Play: John Barnette}[http://peepcode.com/products/play-by-play-jbarnette]</b>
 Peepcode
