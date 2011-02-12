@@ -1,7 +1,3 @@
-Oct 2008
-Nov 2008
-
-
 == Reading list
 Inspired in part by Apprenticeship Patterns, I've decided to maintain a public reading list. The goals are pretty simple: 
   
@@ -14,11 +10,10 @@ Note that many of these entries were written long after having read the actual b
 
 == Books
 <b>Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman</b> 
+
 Dave Hoover & Adewale Oshineye
 
-  Inspirational read, especially if you've only been coding for a few years. Lots of good 
-  ideas for improving your skills organized into loosely overlapping patterns. Also, 
-  peppered with thought-provoking quotes. Completed in February 2011
+  Inspirational read, especially if you've only been coding for a few years. Lots of good ideas for improving your skills organized into loosely overlapping patterns. Also, peppered with thought-provoking quotes. Completed in February 2011
 
 <b>Agile Coaching</b>
 Rachel Davies & Liz Sedley
