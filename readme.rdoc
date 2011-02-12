@@ -195,9 +195,14 @@ Paolo Perrotta
   This book answers all kinds of mysteries. If you've ever wondered "How the hell is that even possible?" this book 
   probably has the answer. Dynamic finders in Rails? How to build a DSL? How RSpec works under the hood? This book sheds 
   light on the dark magic that makes Ruby so powerful. Most importantly, however, this book showed me that metaprogramming 
-  really isn't that complicated.
+  really isn't that complicated. Completed in mid 2010.
 
+<b>{Why's Poignant Guide to Ruby}[http://mislav.uniqpath.com/poignant-guide/]</b>
+why the lucky stiff
 
+  Part comic, part novel, part technical manual. If Kurt Vonnegut were to write a programming book, it'd probably end up 
+  like this. It's an odd book but it definitely has flashes on brilliance. I'd recommend reading it in conjunction with
+  Peter Cooper's "Beginning Ruby". They make a nice pair.
 
 == Screencasts
 <b>{Version Control Made Easy}[http://pragprog.com/screencasts/v-jwsceasy/source-control-made-easy]</b>
@@ -264,6 +269,18 @@ Peepcode
   resources. Unless you're already familiar with similar testing frameworks, these screencasts probably won't teach you 
   everything you need to know. Watched in mid 2009.
 
+<b>{Ruby 1.9: What You Need To Know}[http://envycasts.com/products/ruby-19-package-deal]</b>
+David A. Black
+
+  A two part screencast to get you up to speed with Ruby 1.9. It doesn't cover every little detail but it does an excellent
+  job hitting the main points. Watched in mid 2010.
+
+<b>{Classy Web Development with Sinatra: Series}[http://pragprog.com/screencasts/v-aksinatra/classy-web-development-with-sinatra]</b>
+Adam Keys
+  
+  A good place to start if you have no experience using Sinatra. After watching this screencast, I felt confident about when
+  and how to best use Sinatra. And a few months later, when making a simple registration page, I found myself reaching for 
+  Sinatra rather than PHP. That's when I knew it was a worthwhile watch. Watched in late 2010.
 
 == Things I plan to read.
 <b>{Crafting Rails Applications: Expert Practices for Everyday Rails Development}[http://pragprog.com/titles/jvrails/crafting-rails-applications]</b>
