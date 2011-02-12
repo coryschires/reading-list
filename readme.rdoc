@@ -1,0 +1,274 @@
+Oct 2008
+Nov 2008
+
+
+== Reading list
+Inspired in part by Apprenticeship Patterns, I've decided to maintain a public reading list. The goals are pretty simple: 
+  
+* Be honest about what books I've read, partially read, and plan to read.
+* Write a few sentences about each book – mostly for myself but also for anyone who might be interested.
+* Only include books related to development, user experience design, and entrepreneurship.
+* Include screencasts as well since that's how I do much of my learning.
+
+Note that many of these entries were written long after having read the actual book. I apologize for any inaccuracies. Also, the completion dates are often rough approximations.
+
+== Books
+<b>Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman</b> 
+Dave Hoover & Adewale Oshineye
+
+  Inspirational read, especially if you've only been coding for a few years. Lots of good 
+  ideas for improving your skills organized into loosely overlapping patterns. Also, 
+  peppered with thought-provoking quotes. Completed in February 2011
+
+<b>Agile Coaching</b>
+Rachel Davies & Liz Sedley
+
+  Most useful if you plan to lead a team of agile developers. If you're simply looking to
+  to better familiarize yourself with Agile practices, this isn't your best choice. That's
+  not to say you won't read about general practices. You will, but this book focuses more
+  so on coaching. Partially read in late 2009
+
+<b>The Agile Samurai: How Agile Masters Deliver Great Software</b>
+Jonathan Rasmusson
+  
+  This book makes for a good primer. It's very easy to understand and you're sure to come
+  away with a decent understanding of what Agile is all about. A slight criticism, some of
+  the methodologies (e.g. inception deck) seemed a little contrived. Overall, a good read 
+  for those looking to learn the basics of Agile. Partially read in mid 2010.
+
+<b>The Entrepreneur's Guide to Customer Development</b>
+Brant Cooper & Patrick Vlaskovits
+  
+  Presents a strong case that most startups fail not because they couldn't to make a 
+  product but because no one wanted to use the product they made. The solution? We need
+  to step away from our terminals and talk to potential customers. Find out what people
+  really need. Make the product they want even if it's not entirely inline with your 
+  vision. This book will guide you through the process. Completed in December 2010.
+  
+<b>Arduino: A Quick-Start Guide</b>
+Mark Schmidt
+
+  This is an excellent primer to building robots with Arduino. One caveat. This book is
+  written for programmers with very little knowledge of electronics. This means the book
+  assumes a basic knowledge of programming and almost no knowledge of electronics. That's
+  great for most web developers. But if you're an experienced hardware hacker, this probably
+  isn't the book for you. Partially read in mid 2010.
+  
+<b>Pragmatic Guide to Git</b>
+Travis Swicegood
+
+  This makes a good reference. If you're like me you have an excellent understanding of
+  Git – at least until you mess something up. That's when things get tricky and you start
+  to feel like you could wreck the entire code base. That's when this book comes in handy.
+  Partially read in mid 2010
+
+<b>O'Reilly Head First: HTML with CSS and XHTML</b>
+Elisabeth Robson & Eric T. Freeman
+
+  Despite the hokey cover art, this book gets the job done. I started this read with 
+  absolutely no knowledge of HTML/CSS. Two weeks later I could build a (shitty) website.
+  Note, however, that this book is probably a bit dated (e.g. I don't recall any mention
+  of HTML5/CSS3). Complete in November 2008
+
+<b>HTML5 & CSS3: Develop with Tomorrow's Standards Today</b>
+Brian P. Hogan
+
+  There's a lot of HTML5/CSS3 resources out there and, unfortunately, this is not the best
+  of them. Hogan spends too many pages covering concepts that hardly require any explanation
+  at all (e.g. how to use new markup tags). Also, he goes into unnecessary detail when 
+  explaining how to use JavaScript to ensure support for older browsers. I suppose this 
+  could be good if you're looking for a leisurely overview of the latest web standards. But
+  ultimately for me this book failed to distinguish itself. Partially read in early 2010.
+
+<b>Pro JavaScript Techniques</b>
+John Resig
+
+  Excellent, exhaustive overview of modern JavaScript from the creator of jQuery. Admittedly
+  I've never read this book cover-to-cover but I seem to learn something new every time I
+  flip through it. I suspect the web would be a different place today had this been published 
+  a decade earlier. Partially read in early 2010.
+  
+<b>JavaScript: The Good Parts</b>
+Douglas Crockford
+
+  Absolutely my favorite JavaScript book. Crockford's style is incredibly concise – almost to
+  the point of laconic. Yes, this can make it difficult to understand. But it also makes for a 
+  rewarding read since you probably had to work a little bit to really understand the patterns 
+  that make functional languages very powerful (e.g. closure, lexical scoping, currying, etc).
+  As Crockford says: "This is not a book for dummies...Don’t be discouraged if it takes multiple
+  readings to get it. Your efforts will be rewarded." Completed in early 2010.
+
+<b>Learning jQuery: Better Interaction Design and Web Development with Simple JavaScript Techniques</b>
+Jonathan Chaffer & Karl Swedberg
+
+  I've heard other books (e.g. jQuery in Action) put this one to shame but it got the job
+  done for me. I was able to finish the entire book in about a week and immediately apply what
+  I'd learned. I'd have a look at other books as well but you could certainly do worse than 
+  this. Completed in late 2009.
+
+<b>Head First PHP & MySQL</b>
+Lynn Beighley & Michael Morrison
+
+  Every profession has it's cross to bear and ours is having to code in PHP. Truth be told,
+  I have no intention of becoming an expert PHP developer but occasionally I need to hack a
+  WordPress plugin, build a registration form, etc. This book gave me the basic competency 
+  needed to tackle simple tasks using PHP.
+
+<b>Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction.</b>
+Dainel Shiffman
+
+  Excellent introduction to the Processing language. The book, however, aims also to teach 
+  the basics of programming. This means experienced programmers might find themselves skipping 
+  large sections which cover rudimentary programming concepts (assignment, data structures, 
+  etc). Still, you'll probably run across some things you didn't know about – especially if you 
+  haven't spent much time programming animations or games. Note that you can also use this book 
+  to learn Processing.js since the APIs are essentially interchangeable. Completed in mid 2010.
+
+<b>The Pragmatic Programmer</b>
+Andrew Hunt & Dave Thomas
+
+  Seminal book loaded with practical advice for writing good software. Packed with really
+  smart analogies (e.g. tracer bullets) written in simple, clear language. I'm inclined
+  to agree with the book's bold, opening paragraph: "This book will help you become a better 
+  programmer." Currently reading in early 2011.
+
+<b>Agile Web Development with Ruby</b>
+Sam Ruby, Dave Thomas, David Heinemeier Hansson
+
+  Relatively speaking, there weren't too many basic Rails book when I was first learning.
+  So, like everyone else, I spent a good deal of time reading Agile Web. It was decent for
+  the time; however, I suspect beginners would be better off having a look at newer, easier
+  to understand resources – such as Michael Hartl's much-hyped introduction. Partially read 
+  in late 2008.
+
+<b>Getting Real: The Smarter, Faster, Easier way to build a Successful Web Application</b>
+37signals
+  
+  Lots of tips for how to cut out the bullshit and focus on rapidly building a solid, 
+  successful web application. At its most basic, this book suggests you stop planing, start
+  writing code, and let the details sort themselves out as you go. That's pretty good
+  advice but only, I think, if you have a very strong team. Like all 37signals books, this
+  has a kind of bad-boy contrarian philosophy that could lead to disastrous software if
+  followed by less qualified development teams. Nevertheless, it's a good read. Completed 
+  early 2009.
+
+<b>Rails 3 Upgrade Handbook</b>
+Jeremy Anally
+  
+  Upgrading is not a fun process. This tiny book makes it a bit more tolerable. A must if
+  you find yourself needing to bring an old application up to speed.
+
+<b>The Rails 3 Way</b>
+Obie Fernandez
+  
+  I've only poked through this book a little bit and mostly as a reference tool. But given 
+  the author, it's likely to be a high quality read. Nevertheless, you might consider reading 
+  Peter Cooper's much-discussed review which details some pretty significant shortcomings.
+
+<b>Simply Rails 2</b>
+Patrick Lenz
+  
+  Along with Agile Web, this book helped me grasp the basics when I was still a total novice.
+  Of course, I wouldn't recommend it for current learners since it's way out of date. If 
+  you're looking to learn the basics, check out Michael Hartl's introduction. Completed in
+  early 2009.
+
+<b>The RSpec Book: Behavior-Driven Development with RSpec, Cucumber, and Friends</b>
+David Chelimsky, et al.
+
+  I can't imagine anyone really understanding RSpec until they've read this book. It's long
+  and at times complicated, but absolutely integral if you're looking to be a professional
+  Ruby developer. Completed (after many false starts) in mid 2010. 
+
+== Screencasts
+<b>Version Control Made Easy</b>
+Jim Weirich
+
+  Weirich does much more than just explain how to use Git. He takes you on a tour of how 
+  version control ought to work, starting from the very basics. Gradually you'll see how
+  Git conforms to the patterns he describes, and by the end, you'll have a fundamental
+  understanding what makes Git a superior version control solution. Watched in mid 2010.
+
+<b>Meet Node.js</b>
+Geoffery Grosenbach (Peepcode)
+
+  Another high quality screencast from the folks at Peepcode. I have to admit I didn't run
+  out and build the next great node app, but I did come away with an understanding of what
+  Node.js is all about and why it's so exciting. Watched in early 2010.
+
+<b>Advanced Active Record</b>
+Envycast
+  
+  Awesome little screen cast from the makers of New Relic. Chalked full of little tips. No 
+  matter your experience level, you'll probably learn something new here. Watched in mid 2009.
+
+<b>Everyday Active Record</b>
+Ryan Bates
+
+  Ryan Bates is too awesome. If you watched Railscasts, these are very similar but longer, 
+  more focused, and have better visualizations. Note these are intended for beginner to 
+  intermediate level developers. Watched in mid 2009.
+  
+<b>Haml & Sass</b>
+Geoffery Grosenbach (Peepcode)
+  
+  If you're not using HAML and SASS, you probably should be. It's pretty awesome and very 
+  simple to learn. In fact, this screencast will teach you everything you need to know.
+  Watched in early 2010.
+
+<b>Passenger</b>
+Geoffery Grosenbach (Peepcode)
+
+  I don't really use Passenger anymore since I deploy everything to Heroku. But if you're
+  looking to use Passenger this is a good primer. Watched in mid 2009.
+
+<b>Productivity for Programmers</b>
+Lars Pind
+
+  Not amazing but totally worth a watch. One bit of advice I took from this: Identify the 
+  most and least productive hours of your day. Be sure to program during your productive 
+  hours and use the less productive times for other activities (exercise, lunch, 
+  socializing, etc). Watched in mid 2009.
+
+<b>Scaling Ruby</b>
+Envycast
+
+  Honestly, this screencast discusses a bunch of problems I've never had to encounter
+  firsthand. Still, it was watching if only to broaden my horizons. Watched in mid 2009.
+  
+<b>RSpec Series: Basics, Mocks and Models, Controllers and Tools</b>
+Peepcode
+
+  This is a set of three screencasts each discussing different aspects of the RSpec
+  testing framework. Testing is very difficult especially at first. While these screencasts
+  definitely help, I suggest attacking the topic with a variety of resources. Unless you're
+  already familiar with similar testing frameworks, these screencasts probably won't teach
+  you everything you need to know. Watched in mid 2009.
+  
+  
+
+== Things I plan to read.
+<b>Crafting Rails Applications: Expert Practices for Everyday Rails Development</b>
+Jose Valim
+
+<b>Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages</b>
+Bruce Tate
+
+<b>Clean Code: A Handbook of Agile Software Craftsmanship</b>
+Robert C. Martin
+
+<b>Business Model Generation</b> 
+Alexander Osterwald & Yves Pigneur
+
+<b>jQuery Pocket Reference</b>
+David Flanagan
+
+<b>Design Patterns: Elements of Reusable Object Oriented Software</b>
+Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides
+
+== Things I plan to watch.
+<b>Meet Rails 3</b> 
+Peepcode
+
+<b>Tips From J Barnette</b>
+Peepcode
