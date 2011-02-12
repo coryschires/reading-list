@@ -37,140 +37,124 @@ Brant Cooper & Patrick Vlaskovits
   out what people really need. Make the product they want even if it's not entirely inline with your vision. This book will 
   guide you through the process. Completed in December 2010.
   
-<b>Arduino: A Quick-Start Guide</b>
+<b>{Arduino: A Quick-Start Guide}[http://pragprog.com/titles/msard/arduino]</b>
 Mark Schmidt
 
-  This is an excellent primer to building robots with Arduino. One caveat. This book is
-  written for programmers with very little knowledge of electronics. This means the book
-  assumes a basic knowledge of programming and almost no knowledge of electronics. That's
-  great for most web developers. But if you're an experienced hardware hacker, this probably
-  isn't the book for you. Partially read in mid 2010.
+  This is an excellent primer to building robots with Arduino. One caveat. This book is written for programmers with very 
+  little knowledge of electronics. This means the book assumes a basic knowledge of programming and almost no knowledge of    
+  electronics. That's great for most web developers. But if you're an experienced hardware hacker, this probably isn't the 
+  book for you. Partially read in mid 2010.
   
-<b>Pragmatic Guide to Git</b>
+<b>{Pragmatic Guide to Git}[http://www.pragprog.com/titles/pg_git/pragmatic-guide-to-git]</b>
 Travis Swicegood
 
-  This makes a good reference. If you're like me you have an excellent understanding of
-  Git – at least until you mess something up. That's when things get tricky and you start
-  to feel like you could wreck the entire code base. That's when this book comes in handy.
-  Partially read in mid 2010
+  This makes a good reference. If you're like me you have an excellent understanding of Git – at least until you mess some-
+  thing up. That's when things get tricky and you start to feel like you could wreck the entire code base. That's when this 
+  book comes in handy. Partially read in mid 2010.
 
-<b>O'Reilly Head First: HTML with CSS and XHTML</b>
+<b>{O'Reilly Head First: HTML with CSS and XHTML}[http://oreilly.com/catalog/9780596101978]</b>
 Elisabeth Robson & Eric T. Freeman
 
-  Despite the hokey cover art, this book gets the job done. I started this read with 
-  absolutely no knowledge of HTML/CSS. Two weeks later I could build a (shitty) website.
-  Note, however, that this book is probably a bit dated (e.g. I don't recall any mention
-  of HTML5/CSS3). Complete in November 2008
+  Despite the hokey cover art, this book gets the job done. I started this read with absolutely no knowledge of HTML/CSS. 
+  Two weeks later I could build a (shitty) website. Note, however, that this book is probably a bit dated (e.g. I don't 
+  recall any mention of HTML5/CSS3). Complete in November 2008.
 
-<b>HTML5 & CSS3: Develop with Tomorrow's Standards Today</b>
+<b>{HTML5 & CSS3: Develop with Tomorrow's Standards Today}[http://pragprog.com/news/html5-and-css3-develop-with-tomorrows-standards-today]</b>
 Brian P. Hogan
 
-  There's a lot of HTML5/CSS3 resources out there and, unfortunately, this is not the best
-  of them. Hogan spends too many pages covering concepts that hardly require any explanation
-  at all (e.g. how to use new markup tags). Also, he goes into unnecessary detail when 
-  explaining how to use JavaScript to ensure support for older browsers. I suppose this 
-  could be good if you're looking for a leisurely overview of the latest web standards. But
-  ultimately for me this book failed to distinguish itself. Partially read in early 2010.
+  There's a lot of HTML5/CSS3 resources out there and, unfortunately, this is not the best of them. Hogan spends too many 
+  pages covering concepts that hardly require any explanation at all (e.g. how to use new markup tags). Also, he goes into
+  unnecessary detail when explaining how to use JavaScript to ensure support for older browsers. I suppose this could be 
+  good if you're looking for a leisurely overview of the latest web standards. But ultimately for me this book failed to 
+  distinguish itself. Partially read in early 2010.
 
-<b>Pro JavaScript Techniques</b>
+<b>{Pro JavaScript Techniques}[http://apress.com/book/view/1590597273]</b>
 John Resig
 
-  Excellent, exhaustive overview of modern JavaScript from the creator of jQuery. Admittedly
-  I've never read this book cover-to-cover but I seem to learn something new every time I
-  flip through it. I suspect the web would be a different place today had this been published 
-  a decade earlier. Partially read in early 2010.
+  Excellent, exhaustive overview of modern JavaScript from the creator of jQuery. Admittedly I've never read this book 
+  cover-to-cover but I seem to learn something new every time I flip through it. I suspect the web would be a different 
+  place today had this been published a decade earlier. Partially read in early 2010.
   
-<b>JavaScript: The Good Parts</b>
+<b>{JavaScript: The Good Parts}[http://oreilly.com/catalog/9780596517748]</b>
 Douglas Crockford
 
-  Absolutely my favorite JavaScript book. Crockford's style is incredibly concise – almost to
-  the point of laconic. Yes, this can make it difficult to understand. But it also makes for a 
-  rewarding read since you probably had to work a little bit to really understand the patterns 
-  that make functional languages very powerful (e.g. closure, lexical scoping, currying, etc).
-  As Crockford says: "This is not a book for dummies...Don’t be discouraged if it takes multiple
-  readings to get it. Your efforts will be rewarded." Completed in early 2010.
+  Absolutely my favorite JavaScript book. Crockford's style is incredibly concise – almost to the point of laconic. Yes, 
+  this can make it difficult to understand. But it also makes for a rewarding read since you probably had to work a little 
+  bit to really understand the patterns that make functional languages very powerful (e.g. closure, lexical scoping, currying,
+  etc). As Crockford says: "This is not a book for dummies...Don’t be discouraged if it takes multiple readings to get it. 
+  Your efforts will be rewarded." Completed in early 2010.
 
-<b>Learning jQuery: Better Interaction Design and Web Development with Simple JavaScript Techniques</b>
+<b>{Learning jQuery: Better Interaction Design and Web Development with Simple JavaScript Techniques}[https://www.packtpub.com/jQuery/book]</b>
 Jonathan Chaffer & Karl Swedberg
 
-  I've heard other books (e.g. jQuery in Action) put this one to shame but it got the job
-  done for me. I was able to finish the entire book in about a week and immediately apply what
-  I'd learned. I'd have a look at other books as well but you could certainly do worse than 
-  this. Completed in late 2009.
+  I've heard other books (e.g. jQuery in Action) put this one to shame but it got the job done for me. I was able to finish 
+  the entire book in about a week and immediately apply what I'd learned. I'd have a look at other books as well but you 
+  could certainly do worse than this. Completed in late 2009.
 
-<b>Head First PHP & MySQL</b>
+<b>{Head First PHP & MySQL}[http://oreilly.com/catalog/9780596006303]</b>
 Lynn Beighley & Michael Morrison
 
-  Every profession has it's cross to bear and ours is having to code in PHP. Truth be told,
-  I have no intention of becoming an expert PHP developer but occasionally I need to hack a
-  WordPress plugin, build a registration form, etc. This book gave me the basic competency 
-  needed to tackle simple tasks using PHP.
+  Every profession has it's cross to bear and ours is having to code in PHP. Truth be told, I have no intention of becoming 
+  an expert PHP developer but occasionally I need to hack a WordPress plugin, build a registration form, etc. This book gave 
+  me the basic competency needed to tackle simple tasks using PHP.
 
-<b>Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction.</b>
+<b>{Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction}[http://www.learningprocessing.com/]</b>
 Dainel Shiffman
 
-  Excellent introduction to the Processing language. The book, however, aims also to teach 
-  the basics of programming. This means experienced programmers might find themselves skipping 
-  large sections which cover rudimentary programming concepts (assignment, data structures, 
-  etc). Still, you'll probably run across some things you didn't know about – especially if you 
-  haven't spent much time programming animations or games. Note that you can also use this book 
-  to learn Processing.js since the APIs are essentially interchangeable. Completed in mid 2010.
+  Excellent introduction to the Processing language. The book, however, aims also to teach the basics of programming. This 
+  means experienced programmers might find themselves skipping large sections which cover rudimentary programming concepts
+  (assignment, data structures, etc). Still, you'll probably run across some things you didn't know about – especially if 
+  you haven't spent much time programming animations or games. Note that you can also use this book to learn Processing.js 
+  since the APIs are essentially interchangeable. Completed in mid 2010.
 
-<b>The Pragmatic Programmer</b>
+<b>{The Pragmatic Programmer}[http://www.informit.com/store/product.aspx?isbn=9780201616224]</b>
 Andrew Hunt & Dave Thomas
 
-  Seminal book loaded with practical advice for writing good software. Packed with really
-  smart analogies (e.g. tracer bullets) written in simple, clear language. I'm inclined
-  to agree with the book's bold, opening paragraph: "This book will help you become a better 
-  programmer." Currently reading in early 2011.
+  Seminal book loaded with practical advice for writing good software. Packed with really smart analogies (e.g. tracer 
+  bullets) written in simple, clear language. I'm inclined to agree with the book's bold, opening paragraph: "This book will 
+  help you become a better programmer." Currently reading in early 2011.
 
-<b>Agile Web Development with Ruby</b>
+<b>{Agile Web Development with Ruby}[http://pragprog.com/titles/rails2/agile-web-development-with-rails]</b>
 Sam Ruby, Dave Thomas, David Heinemeier Hansson
 
-  Relatively speaking, there weren't too many basic Rails book when I was first learning.
-  So, like everyone else, I spent a good deal of time reading Agile Web. It was decent for
-  the time; however, I suspect beginners would be better off having a look at newer, easier
-  to understand resources – such as Michael Hartl's much-hyped introduction. Partially read 
-  in late 2008.
+  Relatively speaking, there weren't too many basic Rails book when I was first learning. So, like everyone else, I spent a 
+  good deal of time reading Agile Web. It was decent for the time; however, I suspect beginners would be better off having a 
+  look at newer, easier to understand resources – such as Michael Hartl's much-hyped introduction. Partially read in late 2008.
 
-<b>Getting Real: The Smarter, Faster, Easier way to build a Successful Web Application</b>
+<b>{Getting Real: The Smarter, Faster, Easier way to build a Successful Web Application}[http://gettingreal.37signals.com/]</b>
 37signals
   
-  Lots of tips for how to cut out the bullshit and focus on rapidly building a solid, 
-  successful web application. At its most basic, this book suggests you stop planing, start
-  writing code, and let the details sort themselves out as you go. That's pretty good
-  advice but only, I think, if you have a very strong team. Like all 37signals books, this
-  has a kind of bad-boy contrarian philosophy that could lead to disastrous software if
-  followed by less qualified development teams. Nevertheless, it's a good read. Completed 
-  early 2009.
+  Lots of tips for how to cut out the bullshit and focus on rapidly building a solid, successful web application. At its most 
+  basic, this book suggests you stop planing, start writing code, and let the details sort themselves out as you go. That's 
+  pretty good advice but only, I think, if you have a very strong team. Like all 37signals books, this has a kind of bad-boy
+  contrarian philosophy that could lead to disastrous software if followed by less qualified development teams. Nevertheless, 
+  it's a good read. Completed early 2009.
 
-<b>Rails 3 Upgrade Handbook</b>
+<b>{Rails 3 Upgrade Handbook}[http://peepcode.com/products/rails-3-upgrade-handbook-pdf]</b>
 Jeremy Anally
   
-  Upgrading is not a fun process. This tiny book makes it a bit more tolerable. A must if
-  you find yourself needing to bring an old application up to speed.
+  Upgrading is not a fun process. This tiny book makes it a bit more tolerable. A must if you find yourself needing to bring an 
+  old application up to speed. Completed in late 2010.
 
-<b>The Rails 3 Way</b>
+<b>{The Rails 3 Way}[http://www.informit.com/store/product.aspx?isbn=0321601661]</b>
 Obie Fernandez
   
-  I've only poked through this book a little bit and mostly as a reference tool. But given 
-  the author, it's likely to be a high quality read. Nevertheless, you might consider reading 
-  Peter Cooper's much-discussed review which details some pretty significant shortcomings.
+  I've only poked through this book a little bit and mostly as a reference tool. But given the author, it's likely to be a high
+   quality read. Nevertheless, you might consider reading Peter Cooper's much-discussed review which details some pretty 
+   significant shortcomings. Partially completed in early 2011.
 
-<b>Simply Rails 2</b>
+<b>{Simply Rails 2}[http://www.sitepoint.com/books/rails2/]</b>
 Patrick Lenz
   
-  Along with Agile Web, this book helped me grasp the basics when I was still a total novice.
-  Of course, I wouldn't recommend it for current learners since it's way out of date. If 
-  you're looking to learn the basics, check out Michael Hartl's introduction. Completed in
-  early 2009.
+  Along with Agile Web, this book helped me grasp the basics when I was still a total novice. Of course, I wouldn't recommend it
+  for current learners since it's way out of date. If you're looking to learn the basics, check out Michael Hartl's introduction.
+  Completed in early 2009.
 
-<b>The RSpec Book: Behavior-Driven Development with RSpec, Cucumber, and Friends</b>
+<b>{The RSpec Book: Behavior-Driven Development with RSpec, Cucumber, and Friends}[http://www.pragprog.com/titles/achbd/the-rspec-book]</b>
 David Chelimsky, et al.
 
-  I can't imagine anyone really understanding RSpec until they've read this book. It's long
-  and at times complicated, but absolutely integral if you're looking to be a professional
-  Ruby developer. Completed (after many false starts) in mid 2010. 
+  I can't imagine anyone really understanding RSpec until they've read this book. It's long and at times complicated, but 
+  absolutely integral if you're looking to be a professional Ruby developer. Completed (after many false starts) in mid 2010. 
 
 == Screencasts
 <b>Version Control Made Easy</b>
