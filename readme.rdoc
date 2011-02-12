@@ -1,4 +1,4 @@
-== Reading list
+= Reading list
 Inspired in part by Apprenticeship Patterns, I've decided to maintain a public reading list. The goals are pretty simple: 
   
 * Be honest about what books I've read, partially read, and plan to read.
