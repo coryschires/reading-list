@@ -313,6 +313,25 @@ Adam Keys
   and how to best use Sinatra. And a few months later, when making a simple registration page, I found myself reaching for 
   Sinatra rather than PHP. That's when I knew it was a worthwhile watch. Watched in late 2010.
 
+<b>{Crockford on JavaScript}[http://yuiblog.com/crockford/]</b>
+Douglas Crockford
+
+  Crockford's six part public lecture series on JavaScript. The series begins with a brief history of programming languages,
+  discussing the process of language design becoming progressively more abstract and powerful. But, as Crockford is careful 
+  to point out, programmers have often been terrible at recognizing advancements even in their own field. Too often, the 
+  current generation of coders is reluctant to embrace a new technology. So progress is stalled until a fresh batch of 
+  programmers enter the field and are willing to accept new technologies precisely because they have no ties to the old way 
+  of doing things. 
+
+  Crockford argues this same tendency in part explains why JavaScript has been dismissed as a "toy language". It's functional 
+  nature was out of step with the current emphasis on object oriented design. Had anyone taken a sustained look, however, 
+  they'd have discovered a powerful, flexible, even superior language. As Crockford says, "JavaScript is Lisp in C's clothes". 
+
+  More generally, Crockford is suggesting we reconsider our current commitment to object oriented languages and their reliance 
+  on complicated taxonomies. Functional languages offer more powerful features, like closure, and thus more flexible design 
+  patterns. And given the popularity of something like Node.js, I'm inclined to take Crockford's ideas seriously.
+
+
 == Things I plan to read.
 <b>{Crafting Rails Applications: Expert Practices for Everyday Rails Development}[http://pragprog.com/titles/jvrails/crafting-rails-applications]</b>
 Jose Valim
