@@ -204,6 +204,37 @@ why the lucky stiff
   like this. It's an odd book but it definitely has flashes on brilliance. I'd recommend reading it in conjunction with
   Peter Cooper's "Beginning Ruby". They make a nice pair.
 
+<b>{Beginning Unix}[http://www.amazon.com/Beginning-Unix-Programmer-Paul-Love/dp/0764579940]</b>
+Paul Love, Joe Merlino, Craig Zimmerman, Jeremy C. Reed, Paul Weinstein
+  
+  I'm no Unix hacker. And for the most part, I'd like to keep it that way: focusing on programming rather than sysadmin. But
+  we all need to know our way around the terminal at least a little bit. This book taught me everything I needed to know 
+  (and probably more). If ssh-ing on to a server makes you nervous, you should probably just bite the bullet and read this
+  book. Completed in Early 2010.
+  
+<b>{Designing For The Social Web}[http://www.amazon.com/Designing-Social-Web-Joshua-Porter/dp/0321534921]</b>
+Joshua Porter
+
+  This book's about UX design not programming. One bit that stuck with me: Porter suggests modeling software interfaces after 
+  real world objects (e.g. users don't need to be told what a shopping cart is or how it works). Partially completed in early
+  2010.
+
+<b>{Don't Make Me Think: A Common Sense Approach to Web Usability}[http://www.amazon.com/Think-Common-Sense-Approach-Usability/dp/0789723107]</b>
+Steve Krug
+
+  If you only read one book on usability, make it this one. It's short, pragmatic, and has surprising breadth. Some of Krug's
+  advice has proven indispensable. For example, Krug explains how to get people to actually read your website. Or in another
+  chapter, Krug explains how to make your site simpler through tiny, incremental usability improvements. Completed in late 
+  2010.
+
+<b>{Digging into WordPress}[http://digwp.com/]</b>
+Chris Coyier & Jeff Starr
+
+  I don't really love WordPress but often it's the most practical choice for simple projects. Occasionally, I find myself
+  looking to do something off the beaten path, and that's where this book comes in handy. In typical Chris Coyier style, the
+  prose is a bit long-winded. But depending on your familiarly with the topic being discussed, that can definitely be a good 
+  thing. At any rate, it's my goto WordPress reference guide. Partially completed in early 2010.
+  
 == Screencasts
 <b>{Version Control Made Easy}[http://pragprog.com/screencasts/v-jwsceasy/source-control-made-easy]</b>
 Jim Weirich
