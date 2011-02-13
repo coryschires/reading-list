@@ -329,7 +329,8 @@ Douglas Crockford
 
   More generally, Crockford is suggesting we reconsider our current commitment to object oriented languages and their reliance 
   on complicated taxonomies. Functional languages offer more powerful features, like closure, and thus more flexible design 
-  patterns. And given the popularity of something like Node.js, I'm inclined to take Crockford's ideas seriously.
+  patterns. And given the popularity of something like Node.js, I'm inclined to take Crockford's ideas seriously. Watched in
+  mid 2010.
 
 
 == Things I plan to read.
