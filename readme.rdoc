@@ -235,7 +235,56 @@ Chris Coyier & Jeff Starr
   prose is a bit long-winded. But depending on your familiarly with the topic being discussed, that can definitely be a good 
   thing. At any rate, it's my goto WordPress reference guide. Partially completed in early 2010.
   
+
 == Screencasts
+
+<b>{Node.js Roadmap}[http://developer.yahoo.com/yui/theater/video.php?v=yuiconf2010-dahl]</b>
+Ryan Dahl
+
+  Dahl discusses various improvements planned for Node version 0.3 (faster buffer, streams, etc). Much of the talk is pretty 
+  low level, so it's not a good choice if you're unfamiliar with Node. Concludes with a cool demo of a simple chat server.
+  Watched 14 February 2011.
+
+<b>{Project Future}[http://developer.yahoo.com/yui/theater/video.php?v=crockford-projectfuture]</b>
+Douglas Crockford
+  
+  Crockford discusses a wide variety of topics – urban planning, war, politics, suburbanization, righteous hatred, and Walt 
+  Disney – all as part of a wonderfully discursive discussion of our future and past. If it's not obvious, this is not a 
+  technical talk. Quotes I liked: "I used to think that everyone should learn to program. I don't think that anymore. 
+  Programming is a talent." Watched 14 February 2011.
+
+<b>{Classy Web Development with Sinatra: Series}[http://pragprog.com/screencasts/v-aksinatra/classy-web-development-with-sinatra]</b>
+Adam Keys
+
+  A good place to start if you have no experience using Sinatra. After watching this screencast, I felt confident about when
+  and how to best use Sinatra. And a few months later, when making a simple registration page, I found myself reaching for 
+  Sinatra rather than PHP. That's when I knew it was a worthwhile watch. Watched in late 2010.
+
+<b>{Meet Node.js}[http://peepcode.com/products/nodejs-i]</b>
+Geoffery Grosenbach (Peepcode)
+
+  Another high quality screencast from the folks at Peepcode. I have to admit I didn't run out and build the next great node 
+  app, but I did come away with an understanding of what Node.js is all about and why it's so exciting. Watched in mid 2010.
+
+<b>{Crockford on JavaScript}[http://yuiblog.com/crockford/]</b>
+Douglas Crockford
+
+  Crockford's six part public lecture series on JavaScript. The series begins with a brief history of programming languages,
+  discussing the process of language design becoming progressively more abstract and powerful. But, as Crockford is careful 
+  to point out, programmers have often been terrible at recognizing advancements even in their own field. Too often, the 
+  current generation of coders is reluctant to embrace a new technology. So progress is stalled until a fresh batch of 
+  programmers enter the field and are willing to accept new technologies precisely because they have no ties to the old way 
+  of doing things. 
+
+  Crockford argues this same tendency in part explains why JavaScript has been dismissed as a "toy language". It's functional 
+  nature was out of step with the current emphasis on object oriented design. Had anyone taken a sustained look, however, 
+  they'd have discovered a powerful, flexible, even superior language. As Crockford says, "JavaScript is Lisp in C's clothes". 
+
+  More generally, Crockford is suggesting we reconsider our current commitment to object oriented languages and their reliance 
+  on complicated taxonomies. Functional languages offer more powerful features, like closure, and thus more flexible design 
+  patterns. And given the popularity of something like Node.js, I'm inclined to take Crockford's ideas seriously. Watched in
+  mid 2010.
+
 <b>{Version Control Made Easy}[http://pragprog.com/screencasts/v-jwsceasy/source-control-made-easy]</b>
 Jim Weirich
 
@@ -243,11 +292,11 @@ Jim Weirich
   starting from the very basics. Gradually you'll see how Git conforms to the patterns he describes, and by the end, you'll 
   have a fundamental understanding what makes Git a superior version control solution. Watched in mid 2010.
 
-<b>{Meet Node.js}[http://peepcode.com/products/nodejs-i]</b>
+<b>{Haml & Sass}[http://peepcode.com/products/haml-and-sass]</b>
 Geoffery Grosenbach (Peepcode)
 
-  Another high quality screencast from the folks at Peepcode. I have to admit I didn't run out and build the next great node 
-  app, but I did come away with an understanding of what Node.js is all about and why it's so exciting. Watched in early 2010.
+  If you're not using HAML and SASS, you probably should be. It's pretty awesome and very simple to learn. In fact, this 
+  screencast will teach you everything you need to know. Watched in early 2010.
 
 <b>{Advanced Active Record}[http://envycasts.com/products/advanced-activerecord]</b>
 Envycast
@@ -263,15 +312,9 @@ Ryan Bates
   
 <b>{Mastering Rails Forms: Series}[http://pragprog.com/screencasts/v-rbforms/mastering-rails-forms]</b>
 Ryan Bates
-  
+
   This is like a three hour Railscast episode which focuses on forms. Very high quality. Intended for beginner to 
   intermediate level developers. Watched in mid 2009.
-
-<b>{Haml & Sass}[http://peepcode.com/products/haml-and-sass]</b>
-Geoffery Grosenbach (Peepcode)
-  
-  If you're not using HAML and SASS, you probably should be. It's pretty awesome and very simple to learn. In fact, this 
-  screencast will teach you everything you need to know. Watched in early 2010.
 
 <b>{Phusion Passenger}[http://peepcode.com/products/phusion-passenger]</b>
 Geoffery Grosenbach (Peepcode)
@@ -306,49 +349,7 @@ David A. Black
   A two part screencast to get you up to speed with Ruby 1.9. It doesn't cover every little detail but it does an excellent
   job hitting the main points. Watched in mid 2010.
 
-<b>{Classy Web Development with Sinatra: Series}[http://pragprog.com/screencasts/v-aksinatra/classy-web-development-with-sinatra]</b>
-Adam Keys
-  
-  A good place to start if you have no experience using Sinatra. After watching this screencast, I felt confident about when
-  and how to best use Sinatra. And a few months later, when making a simple registration page, I found myself reaching for 
-  Sinatra rather than PHP. That's when I knew it was a worthwhile watch. Watched in late 2010.
 
-<b>{Crockford on JavaScript}[http://yuiblog.com/crockford/]</b>
-Douglas Crockford
-
-  Crockford's six part public lecture series on JavaScript. The series begins with a brief history of programming languages,
-  discussing the process of language design becoming progressively more abstract and powerful. But, as Crockford is careful 
-  to point out, programmers have often been terrible at recognizing advancements even in their own field. Too often, the 
-  current generation of coders is reluctant to embrace a new technology. So progress is stalled until a fresh batch of 
-  programmers enter the field and are willing to accept new technologies precisely because they have no ties to the old way 
-  of doing things. 
-
-  Crockford argues this same tendency in part explains why JavaScript has been dismissed as a "toy language". It's functional 
-  nature was out of step with the current emphasis on object oriented design. Had anyone taken a sustained look, however, 
-  they'd have discovered a powerful, flexible, even superior language. As Crockford says, "JavaScript is Lisp in C's clothes". 
-
-  More generally, Crockford is suggesting we reconsider our current commitment to object oriented languages and their reliance 
-  on complicated taxonomies. Functional languages offer more powerful features, like closure, and thus more flexible design 
-  patterns. And given the popularity of something like Node.js, I'm inclined to take Crockford's ideas seriously. Watched in
-  mid 2010.
-
-
-<b>{Project Future}[http://developer.yahoo.com/yui/theater/video.php?v=crockford-projectfuture]</b>
-Douglas Crockford
-  
-  Crockford discusses a wide variety of topics – urban planning, war, politics, suburbanization, righteous hatred, and Walt 
-  Disney – all as part of a wonderfully discursive discussion of our future and past. If it's not obvious, this is not a 
-  technical talk. Quotes I liked: "I used to think that everyone should learn to program. I don't think that anymore. 
-  Programming is a talent." Completed February 2011.
-
-
-<b>{Node.js Roadmap}[http://developer.yahoo.com/yui/theater/video.php?v=yuiconf2010-dahl]</b>
-Ryan Dahl
-
-  Dahl discusses various improvements planned for Node version 0.3 (faster buffer, streams, etc). Much of the talk is pretty 
-  low level, so it's not a good choice if you're unfamiliar with Node. Concludes with a cool demo of a simple chat server.
-  Watched in February 2011.
-  
 == Things I plan to read.
 <b>{Crafting Rails Applications: Expert Practices for Everyday Rails Development}[http://pragprog.com/titles/jvrails/crafting-rails-applications]</b>
 Jose Valim
