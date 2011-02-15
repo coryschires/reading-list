@@ -266,6 +266,12 @@ Geoffery Grosenbach (Peepcode)
   Another high quality screencast from the folks at Peepcode. I have to admit I didn't run out and build the next great node 
   app, but I did come away with an understanding of what Node.js is all about and why it's so exciting. Watched in mid 2010.
 
+<b>{Ruby 1.9: What You Need To Know}[http://envycasts.com/products/ruby-19-package-deal]</b>
+David A. Black
+
+  A two part screencast to get you up to speed with Ruby 1.9. It doesn't cover every little detail but it does an excellent
+  job hitting the main points. Watched in mid 2010.
+
 <b>{Crockford on JavaScript}[http://yuiblog.com/crockford/]</b>
 Douglas Crockford
 
@@ -342,12 +348,6 @@ Peepcode
   difficult especially at first. While these screencasts definitely help, I suggest attacking the topic with a variety of 
   resources. Unless you're already familiar with similar testing frameworks, these screencasts probably won't teach you 
   everything you need to know. Watched in mid 2009.
-
-<b>{Ruby 1.9: What You Need To Know}[http://envycasts.com/products/ruby-19-package-deal]</b>
-David A. Black
-
-  A two part screencast to get you up to speed with Ruby 1.9. It doesn't cover every little detail but it does an excellent
-  job hitting the main points. Watched in mid 2010.
 
 
 == Things I plan to read.
