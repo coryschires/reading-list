@@ -341,6 +341,14 @@ Douglas Crockford
   technical talk. Quotes I liked: "I used to think that everyone should learn to program. I don't think that anymore. 
   Programming is a talent." Completed February 2011.
 
+
+<b>{Node.js Roadmap}[http://developer.yahoo.com/yui/theater/video.php?v=yuiconf2010-dahl]</b>
+Ryan Dahl
+
+  Dahl discusses various improvements planned for Node version 0.3 (faster buffer, streams, etc). Much of the talk is pretty 
+  low level, so it's not a good choice if you're unfamiliar with Node. Concludes with a cool demo of a simple chat server.
+  Watched in February 2011.
+  
 == Things I plan to read.
 <b>{Crafting Rails Applications: Expert Practices for Everyday Rails Development}[http://pragprog.com/titles/jvrails/crafting-rails-applications]</b>
 Jose Valim
