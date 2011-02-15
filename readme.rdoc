@@ -333,6 +333,14 @@ Douglas Crockford
   mid 2010.
 
 
+<b>{Project Future}[http://developer.yahoo.com/yui/theater/video.php?v=crockford-projectfuture]</b>
+Douglas Crockford
+  
+  Crockford discusses a wide variety of topics – urban planning, war, politics, suburbanization, righteous hatred, and Walt 
+  Disney – all as part of a wonderfully discursive discussion of our future and past. If it's not obvious, this is not a 
+  technical talk. Quotes I liked: "I used to think that everyone should learn to program. I don't think that anymore. 
+  Programming is a talent." Completed February 2011.
+
 == Things I plan to read.
 <b>{Crafting Rails Applications: Expert Practices for Everyday Rails Development}[http://pragprog.com/titles/jvrails/crafting-rails-applications]</b>
 Jose Valim
