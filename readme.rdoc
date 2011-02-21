@@ -9,6 +9,13 @@ Inspired in part by Apprenticeship Patterns, I've decided to maintain a public r
 Note that many of these entries were written long after having read the actual book. I apologize for any inaccuracies. Also, the completion dates are often rough approximations.
 
 == Books
+<b>{The Pragmatic Programmer}[http://www.informit.com/store/product.aspx?isbn=9780201616224]</b>
+Andrew Hunt & Dave Thomas
+
+  Seminal book loaded with practical advice for writing good software. Packed with really smart analogies (e.g. tracer 
+  bullets) written in simple, clear language. I'm inclined to agree with the book's bold, opening paragraph: "This book will 
+  help you become a better programmer." Currently reading.
+
 <b>{Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman}[http://oreilly.com/catalog/9780596518387]</b>
 Dave Hoover & Adewale Oshineye
 
@@ -106,13 +113,6 @@ Dainel Shiffman
   (assignment, data structures, etc). Still, you'll probably run across some things you didn't know about – especially if 
   you haven't spent much time programming animations or games. Note that you can also use this book to learn Processing.js 
   since the APIs are essentially interchangeable. Completed in mid 2010.
-
-<b>{The Pragmatic Programmer}[http://www.informit.com/store/product.aspx?isbn=9780201616224]</b>
-Andrew Hunt & Dave Thomas
-
-  Seminal book loaded with practical advice for writing good software. Packed with really smart analogies (e.g. tracer 
-  bullets) written in simple, clear language. I'm inclined to agree with the book's bold, opening paragraph: "This book will 
-  help you become a better programmer." Currently reading in early 2011.
 
 <b>{Agile Web Development with Ruby}[http://pragprog.com/titles/rails2/agile-web-development-with-rails]</b>
 Sam Ruby, Dave Thomas, David Heinemeier Hansson
@@ -374,4 +374,7 @@ Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides
 Peepcode
 
 <b>{Play by Play: John Barnette}[http://peepcode.com/products/play-by-play-jbarnette]</b>
+Peepcode
+
+<b>{Meet Postgresql}[http://peepcode.com/products/postgresql]</b>
 Peepcode
