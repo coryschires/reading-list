@@ -349,6 +349,12 @@ Peepcode
   resources. Unless you're already familiar with similar testing frameworks, these screencasts probably won't teach you 
   everything you need to know. Watched in mid 2009.
 
+<b>{Meet Postgresql}[http://peepcode.com/products/postgresql]</b>
+Peepcode
+  
+  Gives quite a bit of advanced information (e.g. generating reports). Perhaps more than you'll need if you're just 
+  looking to simply convert your Rails app to Postgres. Nevertheless, I highly recommend it if you're using Heroku and 
+  need to get your development environment using Postgres rather than MySQL.
 
 == Things I plan to read.
 <b>{Crafting Rails Applications: Expert Practices for Everyday Rails Development}[http://pragprog.com/titles/jvrails/crafting-rails-applications]</b>
@@ -376,5 +382,3 @@ Peepcode
 <b>{Play by Play: John Barnette}[http://peepcode.com/products/play-by-play-jbarnette]</b>
 Peepcode
 
-<b>{Meet Postgresql}[http://peepcode.com/products/postgresql]</b>
-Peepcode
