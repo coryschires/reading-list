@@ -1,0 +1,95 @@
+= Chapter 2: Ruby.new
+
+Had never thought about this being a language feature:
+
+    Methods are invoked by sending a message to an object. The message 
+    contains the method’s name, along with any parameters the method 
+    may need. 33
+
+But it's pretty nice:
+    
+    num = Math.abs(num)   # java. boo.
+    num = num.abs         # ruby. yay.
+    
+Didn't know you could use <tt>while</tt> in one-lines
+  
+    square = square*square while square < 1000
+    
+=== 2.7	Blocks and Iterators
+
+An excellent, succinct explanation of how <tt>yield</tt> works:
+
+    You can think of yield as being something like a method call that 
+    invokes the block associated with the call to the method containing 
+    the yield. 44
+    
+What does this mean?
+
+    You may be better off thinking of the block and the method as 
+    coroutines, which transfer control back and forth between 
+    themselves. 44 (footnote)
+
+=== 2.9 Command-line Arguments
+
+Didn't know about ARGF:
+
+    ...the variable ARGF is a special kind of I/O object that acts like 
+    all the contents of all the files whose names are passed on the command 
+    line (or standard input if you don’t pass any filenames). 46
+    
+
+
+= Chapter 3: Classes, Objects, and Variables
+
+I always thought of a virtual attribute as an attribute which had no corresponding database column. Wrong. It's simply an writer/reader which doesn't rely directly on an instance variable (i.e. attribute). For example:
+
+    def price_in_cents=(cents) 
+      @price = cents / 100.0
+    end
+
+That's a powerful abstraction that I had taken for granted (see {Uniform Access Principle}[http://en.wikipedia.org/wiki/Uniform_access_principle]). 
+
+=== 3.1 Attributes, Instance Variables, and Methods
+
+Also, interesting is the blurry distinction between methods and attributes (55). Following the <i>Uniform Access Principle</i> there's really no important, practical distinction between methods and attributes. 
+
+=== 3.2 Classes Working with Other Classes
+
+Didn't know about this little beauty:
+
+    require_relative 'book_in_stock'
+    
+=== 3.3 Access Control
+
+Never thought of restricted methods this way. Always thought of them simply as internal methods (i.e. methods intended to be called only by other methods).
+
+    A good rule of thumb is never to expose methods that could leave an object 
+    in an invalid state.
+    
+
+= Chapter 4: Containers, Blocks, and Iterators
+
+Didn't know that <tt>first</tt> and <tt>last</tt> could take arguments:
+
+    array = [ 1, 2, 3, 4, 5, 6, 7 ]
+    array.first(4)  # => [1, 2, 3, 4]
+    array.last(4)   # => [4, 5, 6, 7]
+
+=== 4.3 Blocks and Iterators
+
+Didn't know that you could explicitly define local variables by putting them after a semicolon in the block’s parameter list (73):
+
+    square = "some shape"
+    sum = 0 
+    [1, 2, 3, 4].each do |value; square|
+      square = value * value
+      sum	+= square
+    end
+    puts sum      # => 30
+    puts square   # => "some shape"
+
+
+If inject is called with no parameter, it uses the first element of the collection as the initial value and starts the iteration with the second value. Meaning these two examples are logically the same (76):
+
+    [1,3,5,7].inject(0) {|sum, element| sum+element}	  # => 16
+    [1,3,5,7].inject {|sum, element| sum+element}	      # => 16
