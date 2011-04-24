@@ -252,3 +252,73 @@ Didn't know you could use ranges as conditions:
 
 = Chapter 7: Regular Expressions
 
+Didn't know that you can test to see whether a pattern does not match a string using <tt>!~</tt> (113):
+
+  File.foreach("testfile").with_index do |line, index| 
+    puts "#{index}: #{line}" if line !~ /on/
+  end
+
+Never thought to <tt>sub!</tt> and <tt>gsub!</tt> as conditions:
+
+  Unlike sub and gsub, sub! and gsub! return the string only if the pattern was matched. If no match for the pattern is 
+  found in the string, they return nil instead. This means it can make sense (depending on your need) to use the ! forms 
+  in conditions. (114)
+
+=== 7.3	Digging Deeper
+
+Different ways to create regular expressions:
+
+  /mm\/dd/	            # => /mm\/dd/ 
+  Regexp.new("mm/dd")   # => /mm\/dd/ 
+  %r{mm/dd}	            # => /mm\/dd/
+
+I did know about <tt>extend mode</tt> but probably don't use it enough:
+
+  Complex regular expressions can be difficult to read. The x option allows you to insert spaces and newlines in the 
+  pattern to make it more readable. You can also use # to introduce comments. (115)
+
+Whoa! Didn't know you could use <tt>pre_match</tt> and <tt>post_match</tt> to avoid using ugly pearl-like globals (116):
+
+  def show_regexp(string, pattern) 
+    match = pattern.match(string) 
+    "#{match.pre_match}->#{match[0]}<-#{match.post_match}"
+  end
+  show_regexp('very interesting', /t/) # => very in->t<-eresting
+
+
+=== Character Classes
+
+
+You can create the intersection of character classes using <tt>&&</tt> (118): 
+
+  # matchs all lowercase ASCII letters that aren’t vowels
+  "now is the time".gsub(/[a-z&&[^aeiou]]/, '*')    # => "*o* i* **e *i*e"
+  
+
+Don't forget that you can use part of the current match later in match using the <tt>\1</tt> notation. For example, this matches duplicated substrings (120):
+
+  show_regexp('Mississippi', /(\w+)\1/)	# => M->ississ<-ippi
+
+Didn't know that both <tt>sub</tt> and <tt>gsub</tt> can take a block:
+
+  "quick brown fox".gsub(/[aeiou]/) { |vowel| vowel.upcase } # => "qUIck brOwn fOx"
+
+This is awesome too: "You can also give sub and gsub a hash as the replacement parameter, in which case they will look up matched groups and use the corresponding values as replacement text" (122):
+  
+  replacement = { "cat" => "feline", "dog" => "canine" } 
+  replacement.default = "unknown"
+  "cat and dog".gsub(/\w+/, replacement)  # => "feline unknown canine"
+
+=== Backslash Sequences in the Substitution
+
+You can also use backslash sequences as the second argument of <tt>sub</tt> and <tt>gsub</tt>:
+
+  "fred:smith".sub(/(\w+):(\w+)/, '\2, \1')    # => smith, fred
+
+=== 7.4	Advanced Regular Expressions
+
+Awesome. How to add `comments` within regular expressions:
+
+  The sequence (?# comment) inserts a comment into the pattern. The content is ignored during pattern matching. As 
+  we’ll see, commenting complex regular expressions can be as helpful as commenting complex code. (123)
+
