@@ -216,9 +216,39 @@ So when should we use inheritance vs mixins? Of course it depends, making these 
 
   The real world is built using composition, not strict hierarchies...And that’s where we need to move away from 
   inheritance in our designs...Try to reserve inheritance for the times where it is justified. And try to explore 
-  all the cool ways that mixins let you write decoupled, flexible code. (99)
+  all the cool ways that mixins let you write decoupled, flexible code. (99)gi
 
 
 
 = Chapter 6: Standard Types
+
+Didn't know that you can use underscore as delimiters to make large numbers easier to read:
+
+  123_456_789   # => same as 123456789
+  
+Didn't know there's built-in support for rational and imaginary numbers:
+
+  Rational(3, 4) * Rational(2, 3)	    # => (1/2) 
+  Rational("3/4") * Rational("2/3")   # => (1/2)
+  Complex(1, 2) * Complex(3, 4)	      # => (-5+10i) 
+  Complex("1+2i") * Complex("3+4i")   # => (-5+10i)
+
+=== How Numbers Interact
+
+What if you add two different types of numbers?
+
+  If the two numbers are different classes, the result will have the class of the more general one. If you mix integers 
+  and floats, the result will be a float; if you mix floats and complex numbers, the result will be complex.
+  
+=== Ranges
+
+Didn't know you could use ranges as conditions:
+
+  while line = gets 
+    puts line if line =~ /start/ .. line =~ /end/
+  end
+
+
+
+= Chapter 7: Regular Expressions
 
