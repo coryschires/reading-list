@@ -214,7 +214,9 @@ How method lookups work in Ruby:
 
 So when should we use inheritance vs mixins? Of course it depends, making these pages are worth regularly re-reading. The basic synopsis, however:
 
-The real world is built using composition, not strict hierarchies...And that’s where we need to move away from inheritance in our designs...Try to reserve inheritance for the times where it is justified. And try to explore all the cool ways that mixins let you write decoupled, flexible code. (99)
+  The real world is built using composition, not strict hierarchies...And that’s where we need to move away from 
+  inheritance in our designs...Try to reserve inheritance for the times where it is justified. And try to explore 
+  all the cool ways that mixins let you write decoupled, flexible code. (99)
 
 
 
