@@ -189,4 +189,34 @@ Assuming the private methods are not reused, we can use closure to compose a met
     end
   end
 
+= Chapter 5: Sharing Functionality: Inheritance, Modules, and Mixins
+
+Interesting. Authors don't seem too hot on inheritance:
+
+  The use of the serve method shows a common idiom when using subclassing. A parent class assumes that it will be 
+  subclassed and calls a method that it expects its children to implement. This allows the parent to take on the brunt 
+  of the processing but to invoke what are effectively hook methods in subclasses to add application-level functionality. 
+  As we’ll see at the end of this chapter, just because this idiom is common doesn’t make it good design. (91)
+  
+=== Modules
+
+Didn't know <tt>::</tt> was called the scope resolution operator. (93)
+
+An academic distinction but interesting:
+
+  Ruby include does not simply copy the module’s instance methods into the class. Instead, it makes a reference from
+  the class to the included module. If multiple classes include that module, they’ll all point to the same thing. (94)
+  
+How method lookups work in Ruby:
+
+  Ruby looks first in the immediate class of an object, then in the mixins included into that class, and then in 
+  superclasses and their mixins. If a class has multiple modules mixed in, the last one included is searched first. (98)
+
+So when should we use inheritance vs mixins? Of course it depends, making these pages are worth regularly re-reading. The basic synopsis, however:
+
+The real world is built using composition, not strict hierarchies...And that’s where we need to move away from inheritance in our designs...Try to reserve inheritance for the times where it is justified. And try to explore all the cool ways that mixins let you write decoupled, flexible code. (99)
+
+
+
+= Chapter 6: Standard Types
 
