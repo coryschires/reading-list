@@ -47,7 +47,7 @@ That's a powerful abstraction that I had taken for granted (see {Uniform Access 
 
 === 3.1 Attributes, Instance Variables, and Methods
 
-Also, interesting is the blurry distinction between methods and attributes (55). Following the <i>Uniform Access Principle</i> there's really no important, practical distinction between methods and attributes. 
+Also, interesting is the blurry distinction between methods and attributes (55). Following the {Uniform Access Principle}[http://en.wikipedia.org/wiki/Uniform_access_principle] there's really no important, practical distinction between methods and attributes. 
 
 === 3.2 Classes Working with Other Classes
 
@@ -86,5 +86,107 @@ Didn't know that you could explicitly define local variables by putting them aft
 
 If inject is called with no parameter, it uses the first element of the collection as the initial value and starts the iteration with the second value. Meaning these two examples are logically the same (76):
 
-  [1,3,5,7].inject(0) {|sum, element| sum+element}	  # => 16
-  [1,3,5,7].inject {|sum, element| sum+element}	      # => 16
+  [1,3,5,7].inject(0) {|sum, element| sum+element}    # => 16
+  [1,3,5,7].inject {|sum, element| sum+element}       # => 16
+  
+Too magical? You can also pass symbol to specify the method that you'd like called on each successive object in the array (76):
+
+  [1,3,5,7].inject(:+)    # => 16
+  [1,3,5,7].inject(:*)    # => 105
+
+You can easily grant objects enumerable functionality:
+
+  Most of the internal iterator methods—the ones that normally yield successive values to a block—will also return an 
+  Enumerator object if called without a block (76).
+
+This means, for example:
+
+  [1, "red", "orange"].each   # => create an Enumerator using an internal iterator
+
+And now you can chain enumerable methods on to the returned object:
+
+  "cat".each_char.each_with_index { |item, index| result << [item, index] }
+
+
+=== Enumerators Are Generators and Filters
+
+Ruby 1.9 has an alternative syntax for lambdas:
+
+  lambda { |params| puts "params" }   # => 1.8
+  ->params { puts "params" }          # => 1.9
+
+=== Block Parameter Lists
+
+As of Ruby 1.9, blocks have the same parameter list capabilities as methods (i.e. you can pass them splat args, default values, etc):
+
+  proc1 = lambda do |a, *b, &block| 
+    puts "a = #{a.inspect}" 
+    puts "b = #{b.inspect}" 
+    block.call
+  end
+
+Note that this is block also has closure. This means you can use lambdas to achieve lexical scoping, like in JavaScript. For example, say you had a <tt>build_invoice</tt> method.
+
+  class AccountsPayable
+
+    def initialize(number)
+      @number = number
+    end
+
+    def build_invoice
+      puts "Invoice #{@number}"
+      puts "Amount #{calculate_amount}"
+      fetch_line_items.each do |item|
+        puts "Purchased #{item[:quantity]} #{item[:description]} for #{item[:price]}"
+      end
+    end
+
+    private
+
+    def calculate_amount
+      # ...complicated logic for taxes, surcharges, etc.
+      19.48
+    end
+
+    def fetch_line_items
+      # ...lots of code to fetch line items
+      [ { description: "Apples", quantity: 7, price: 1.00 },
+        { description: "Bananas", quantity: 12, price: 2.00 } ]
+    end
+  end
+
+Following the standard idiom, <tt>build_invoice</tt> is composed of several private methods – each responsible for a single, specific task. This is smart especially when the private methods are reused by other public methods (e.g. <tt>build_receipt</tt> method might also want to know about line items). By composing <tt>build_invoice</tt> of private methods, we've added a small about of indirection (i.e. we now must scan through three methods rather than one). But we've reduced complexity and presumably removed some duplication. Overall, a good trade.
+
+But what about when these private methods aren't reused? Or more importantly, what if you're class has grown large and you have scores of private methods – each existing only to compose other methods. Tracking down the logic for a single method becomes increasingly tedious. 
+
+Assuming the private methods are not reused, we can use closure to compose a method without needing to create single-use private methods. For example, <tt>build_invoice</tt> could be refactored as:
+
+  class AccountsPayable
+  
+    def initialize(number)
+      @number = number
+    end
+  
+    def build_invoice
+      calculate_amount = lambda {
+        # ...complicated logic for taxes, surcharges, etc.
+        19.48
+      }.call
+
+      fetch_line_items = lambda {
+        # ...lots of code to fetch line items
+        [
+          { description: "Apples", quantity: 7, price: 1.00 },
+          { description: "Bananas", quantity: 12, price: 2.00 }
+        ]
+      }.call
+
+      puts "Invoice #{@number}"
+      puts "Amount #{calculate_amount}"
+      fetch_line_items.each do |item|
+        puts "Purchased #{item[:quantity]} #{item[:description]} for #{item[:price]}"
+      end
+    end
+  end
+
+
