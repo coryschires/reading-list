@@ -329,3 +329,26 @@ Also, fairly advanced discussion of <tt>backtracing</tt>. (125)
 Note: Moved pretty quickly through the advanced section would be good re-read in a few months to help everything sink in better.
 
 = Chapter 8: More About Methods
+
+Didn't know a default argument could reference previous arguments (132):
+
+  def surround(word, pad_width=word.length/2) 
+    "[" * pad_width + word + "]" * pad_width
+  end
+  
+If you're using a splat operator only to pass arguments on to <tt>super</tt>, you can omit the argument name. So these two snippets are the same:
+
+  class Child < Parent
+    def do_something(*not_used)
+      # our processing
+      super
+    end
+  end
+
+  class Child < Parent 
+    def do_something(*)
+      # our processing
+      super
+    end
+  end
+
