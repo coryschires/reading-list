@@ -317,8 +317,15 @@ You can also use backslash sequences as the second argument of <tt>sub</tt> and 
 
 === 7.4	Advanced Regular Expressions
 
-Awesome. How to add `comments` within regular expressions:
+Awesome. How to add comments within regular expressions:
 
   The sequence (?# comment) inserts a comment into the pattern. The content is ignored during pattern matching. As 
   we’ll see, commenting complex regular expressions can be as helpful as commenting complex code. (123)
 
+Didn't know about <tt>zero-width positive lookahead</tt> or <tt>zero-width positive lookbehind</tt> matchers. Pretty cool. (124)
+
+Also, fairly advanced discussion of <tt>backtracing</tt>. (125)
+
+Note: Moved pretty quickly through the advanced section would be good re-read in a few months to help everything sink in better.
+
+= Chapter 8: More About Methods
