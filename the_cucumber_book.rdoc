@@ -1,0 +1,8 @@
+= Chapter 1: Why Cucumber?
+
+  It’s sometimes said that acceptance tests ensure you "build the right thing", while unit tests ensure you "build
+  the thing right". (12)
+
+= Chapter 2: First Taste
+
+= Chapter 3: Gherkin Basics

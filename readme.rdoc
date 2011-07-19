@@ -9,12 +9,30 @@ Inspired in part by Apprenticeship Patterns, I've decided to maintain a public r
 Note that many of these entries were written long after having read the actual book. I apologize for any inaccuracies. Also, the completion dates are often rough approximations.
 
 == Books
+
+<b>{The Little Schemer}[http://www.ccs.neu.edu/home/matthias/BTLS/]</b>
+Daniel P. Friedman & Matthias Felleisen
+  
+  Really good so far. Making me think how much of our work is done recursively. It's easy to overlook using high level 
+  languages, like Ruby. Currently Reading.
+
+<b>{The Cucumber Book: Behaviour-Driven Development for Testers and Developers}[http://pragprog.com/book/hwcuc/the-cucumber-book]</b>
+Matt Wynne and Aslak Hellesøy
+  
+  The most interesting chapters, like AJAX testing, are still in beta. Currently reading.
+
+<b>{Crafting Rails Applications: Expert Practices for Everyday Rails Development}[http://pragprog.com/titles/jvrails/crafting-rails-applications]</b>
+Jose Valim
+  
+  Only read the first few chapters but it's already paid off by giving you a deeper insight into whats really going on
+  in Rails. Currently Reading.
+
 <b>{The Pragmatic Programmer}[http://www.informit.com/store/product.aspx?isbn=9780201616224]</b>
 Andrew Hunt & Dave Thomas
 
   Seminal book loaded with practical advice for writing good software. Packed with really smart analogies (e.g. tracer 
   bullets) written in simple, clear language. I'm inclined to agree with the book's bold, opening paragraph: "This book will 
-  help you become a better programmer." Currently reading.
+  help you become a better programmer."
 
 <b>{Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman}[http://oreilly.com/catalog/9780596518387]</b>
 Dave Hoover & Adewale Oshineye
@@ -235,6 +253,11 @@ Chris Coyier & Jeff Starr
   prose is a bit long-winded. But depending on your familiarly with the topic being discussed, that can definitely be a good 
   thing. At any rate, it's my goto WordPress reference guide. Partially completed in early 2010.
   
+<b>{20 Things I Learned About Browsers and the Web}[http://www.20thingsilearned.com/home]</b>
+Folks at Google Chrome
+  
+  Nice, non-technical explanation of how the web works and have evolved over time. Impressive design and HTML5 book effect.
+
 
 == Screencasts
 
@@ -357,8 +380,8 @@ Peepcode
   everything you need to know. Watched in mid 2009.
 
 == Things I plan to read.
-<b>{Crafting Rails Applications: Expert Practices for Everyday Rails Development}[http://pragprog.com/titles/jvrails/crafting-rails-applications]</b>
-Jose Valim
+<b>{Mythical Man Month}[http://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959/ref=sr_1_1?ie=UTF8&qid=1304104002&sr=8-1]</b>
+Frederick P. Brooks
 
 <b>{Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages}[http://www.pragprog.com/titles/btlang/seven-languages-in-seven-weeks]</b>
 Bruce Tate

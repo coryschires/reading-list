@@ -1,0 +1,115 @@
+== Primitives
+
+=== atom
+A string of letters, numbers, or special characters other than parentheses, similar to a string.
+<b>Examples</b>
+  atom
+  1982
+  $abc*
+  
+=== list
+A collection of S-expressions, similar to an array
+<b>Examples</b>
+  (a b c)
+  (a (x y x) (b) c)
+
+=== car
+Returns the first S-expression form a list.
+<b>Arguments</b> a non-empty list
+<b>Examples</b>
+  car (a b c)  # => a
+<b>Ruby Equivalent</b>
+  ['a', 'b', 'c'].first  # => 'a'
+
+=== cdr
+Returns the passed list with the first S-expression removed.
+<b>Arguments</b> a non-empty list
+<b>Example</b>
+  cdr (a b c)  # => (b c)
+<b>Ruby Equivalent</b>
+  ['a', 'b', 'c'].unshift  # => ['b', 'c']
+
+=== cons
+Adds the first argument (an S-expression) to the beginning of the second argument (a list).
+<b>Arguments</b> takes two arguments (1) any S-expression and (2) any list.
+<b>Example</b>
+  cons z (a b c)  # => (z a b c)
+<b>Ruby Equivalent</b>
+  ['a', 'b', 'c'].unshift('z')  # => ['z', 'a', 'b', 'c']
+
+=== null?
+Checks if the passed argument is an empty list. Returns boolean. In practice, it returns false for everything except an empty list.
+<b>Arguments</b> a list
+<b>Example</b>
+  null? (a b c)  # => false
+<b>Ruby Equivalent</b>
+  ['a', 'b', 'c'].empty?  # => false
+
+=== atom?
+Check if the passed argument is an atom. Returns boolean.
+<b>Arguments</b> any S-expression
+<b>Example</b>
+  atom? abc  # => true
+<b>Ruby Equivalent</b>
+  'abc'.is_a?(String)  # => true
+
+=== eq?
+Tests equality of two non-numeric atoms. Returns boolean.
+<b>Arguments</b> takes two arguments – both of them must be non-numeric atoms
+<b>Example</b>
+  eq? abc abc  # => true
+<b>Ruby Equivalent</b>
+  'abc' == 'abc'  # => true
+  
+=== lat?
+Checks if the passed list contains only atoms (no lists). Returns boolean.
+<b>Arguments</b> takes a list
+<b>Example</b>
+  lat? (a b c)  # => true
+<b>Ruby Equivalent</b>
+  ['a', 'b', 'c'].all? { |i| i.is_a?(String) }
+
+=== cond
+(cond . . . ) asks questions
+
+=== lambda
+(lambda . . . ) creates a function; 
+
+=== define
+(define . . . ) gives it a name.
+
+=== or
+(or ... ) asks two questions, one at a time. If the first one is true it stops and answers true. Otherwise it asks the second question and answers with whatever the second question answers.
+<b>Example</b>
+  (or (null? (a b c)) (atom? dummy) )  # => true
+<b>Ruby Equivalent</b>
+  ['a', 'b', 'c'].empty? || 'dummy'.is_a(String)   # => true
+
+
+
+== Problems
+
+Write the function <tt>lat?</tt> using some, but not necessarily all, of the following functions:
+<tt>car</tt> <tt>cdr</tt> <tt>cons</tt> <tt>null?</tt> <tt>atom?</tt> and <tt>eq?</tt>
+
+<b>LISP</b>
+  # sudo code
+  lambda lat?(array)
+    return false unless (atom? (car array))
+    (null? array) ? true : (lat? (cdr array))
+  end
+  
+  # actual answer
+  (define lat?
+    (lambda (l)
+      (cond
+        ((null? l) #t) 
+        ((atom? (car l)) (lat? (cdr l))) 
+        (else #f))))
+  
+<b>Ruby</b>
+  def lat?(array)
+    return false unless array.shift.is_a?(String)
+    array.empty? ? true : lat?(array)
+  end
+
